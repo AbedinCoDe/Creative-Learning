@@ -21,3 +21,25 @@
     display: inline-block;
     line-height: 22px;
 }
+
+/* slider custom height */
+.my-custom-button2 a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #289BDE;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+/* .my-carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 16.1rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+} */
