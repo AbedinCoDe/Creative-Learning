@@ -1,0 +1,23 @@
+.my-custom-logo a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 23px;
+}
+
+.my-custom-navbar {
+    justify-content: space-around;
+}
+
+.my-custom-button {
+    justify-content: end;
+}
+
+.my-custom-button a {
+    text-decoration: none;
+    padding: 6px 20px;
+    color: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 8px;
+    display: inline-block;
+    line-height: 22px;
+}
