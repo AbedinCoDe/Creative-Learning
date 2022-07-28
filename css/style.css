@@ -1,3 +1,27 @@
+/* Custom fonts family */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+/* ================================ */
+
+
+
+
 .my-custom-logo a {
     text-decoration: none;
     color: #4a4a4a;
@@ -20,7 +44,14 @@
     border-radius: 8px;
     display: inline-block;
     line-height: 22px;
+    transition: .4s ease-in-out;
 }
+
+.my-custom-button a:hover {
+    background-color: #289BDE;
+    color: white;
+}
+
 
 /* slider custom height */
 .my-custom-button2 a {
@@ -31,15 +62,56 @@
     color: white;
     border-radius: 10px;
     font-weight: 500;
+    transition: .4s ease-in;
 }
 
-/* .my-carousel-caption {
+.my-custom-button2 a:hover {
+    background-color: #00a2ff70;
+    color: black;
+    font-weight: 500;
+}
+
+.my-carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: 16.1rem;
+    bottom: auto;
+    top: 35%;
     left: 15%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: center;
-} */
+    z-index: 1;
+}
+
+.dark-overlay::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: .6;
+}
+
+
+/* Post section styleing start */
+
+.My-custom-style {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.My-custom-style h1 {
+    font-size: 40px;
+    color: #1D1D1D;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.My-custom-style p {
+    color: #777777;
+    font-size: 14px;
+}
