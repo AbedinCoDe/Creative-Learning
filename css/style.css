@@ -115,3 +115,107 @@ p {
     color: #777777;
     font-size: 14px;
 }
+
+
+/* institute overview css style start ------------------------------------- */
+.custom-bg {
+    background-color: #F4FAFD;
+    border-radius: 10px;
+}
+
+
+.my-custom-countdown h1 {
+    color: #1D1D1D;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.my-custom-countdown h2 {
+    font-weight: 600;
+}
+
+.my-custom-countdown p {
+    color: #777777;
+    font-size: 13px;
+}
+
+.my-custom-countdown span {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+/* Register section start ---------------------  */
+
+.custom-bg2 {
+    background-color: #289BDE;
+    border-radius: 15px;
+}
+
+.custom-bg2 h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.custom-bg2 p {
+    color: #f4f4f4c4;
+    font-size: 13px;
+}
+
+.my-custom-button3 a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #289BDE;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: .3s ease-in;
+}
+
+.my-custom-button3 a:hover {
+    background-color: #0b0d0e;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+
+/* students-profile :start */
+
+
+.students-profile h1 {
+    font-size: 33px;
+    margin-bottom: 20px;
+    color: #1D1D1D;
+    font-weight: 500;
+}
+
+.students-profile p {
+    color: #777777;
+    font-size: 14px;
+}
+
+/* footer style :start */
+.footer-bg {
+    background-color: #161616;
+}
+
+.footer-text h2 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 28px;
+}
+
+.footer-text p {
+    color: #e8e8e8bf;
+    line-height: 13px;
+    font-size: 12px;
+}
+
+.footer-social a i {
+    color: white;
+    margin: 10px;
+}
