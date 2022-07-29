@@ -71,7 +71,7 @@ p {
     font-weight: 500;
 }
 
-.my-carousel-caption {
+/* .my-carousel-caption {
     position: absolute;
     right: 15%;
     bottom: auto;
@@ -82,7 +82,7 @@ p {
     color: #fff;
     text-align: center;
     z-index: 1;
-}
+} */
 
 .dark-overlay::after {
     content: '';
@@ -128,6 +128,7 @@ p {
     color: #1D1D1D;
     font-size: 30px;
     margin-bottom: 20px;
+    margin-top: 35px;
 }
 
 .my-custom-countdown h2 {
@@ -152,6 +153,7 @@ p {
 .custom-bg2 {
     background-color: #289BDE;
     border-radius: 15px;
+    padding: 20px;
 }
 
 .custom-bg2 h1 {
@@ -166,7 +168,7 @@ p {
 }
 
 .my-custom-button3 {
-    text-align: center;
+    text-align: end;
 }
 
 .my-custom-button3 a {
@@ -205,6 +207,7 @@ p {
 /* footer style :start */
 .footer-bg {
     background-color: #161616;
+    max-width: 100%;
 }
 
 .footer-text h2 {
@@ -225,4 +228,35 @@ p {
 }
 
 
-.img-width-custom {}
+
+/* Some media queries  */
+
+@media screen and (max-width: 540px) {
+    .view {
+        top: 7%;
+    }
+
+    .view h5 {
+        font-size: 17px;
+    }
+
+    .view p {
+        font-size: 11px;
+    }
+
+    .view a {
+        padding: 7px 14px;
+        font-size: 15px;
+    }
+
+    .hidden-property {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:541px) and (max-width:767px) {
+    .hidden-property {
+        display: none;
+    }
+}

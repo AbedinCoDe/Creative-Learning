@@ -46,23 +46,73 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Deals</a>
+                            <a class="nav-link" href="#success">Success Story</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Success Story</a>
+                            <a class="nav-link" href="#Subscription">Subscribe</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#FAQ">FAQ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#AboutUs">About Us</a>
                         </li>
                     </ul>
                     <div class="my-custom-button ms-auto">
-                        <a class="" href="">Register</a>
+                        <div class="my-custom-button3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <a href="#">Subscription</a>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+
+                                        <!-- form html ---------------------------------- -->
+
+
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                                    aria-describedby="emailHelp">
+                                                <div id="emailHelp" class="form-text">We'll never share your email with
+                                                    anyone else.</div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                            </div>
+                                            <div class="mb-3 form-check">
+                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                            </div>
+                                        </form>
+
+
+                                        <!-- form html ---------------------------------- -->
+
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -86,35 +136,44 @@
                     aria-label="Slide 3"></button>
             </div> -->
 
-            <div class="carousel-inner">
+            <div class="carousel-inner carousel-custom-width">
                 <div class="carousel-item dark-overlay  active">
                     <img src="images/cover/cover-1.png" class="img-fluid d-block w-100" alt="...">
-                    <div class="my-carousel-caption d-md-block">
-                        <h5>Get Started Digital Learning</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                        <div class="my-custom-button2">
-                            <a href="#">Get Started</a>
+                    <div class="view carousel-caption d-flex h-100 align-items-center justify-content-center"
+                        style="z-index:1">
+                        <div>
+                            <h5>Get Started Digital Learning</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <div class="my-custom-button2">
+                                <a href="#">Get Started</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item dark-overlay">
                     <img src="images/cover/cover-2.jpg" class="img-fluid d-block w-100" alt="...">
-                    <div class="my-carousel-caption d-md-block">
-                        <h5>Your First Step Go-Ahead</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                        <div class="my-custom-button2">
-                            <a href="#">Get Started</a>
+                    <div class="view carousel-caption d-flex h-100 align-items-center justify-content-center"
+                        style="z-index:1">
+                        <div>
+                            <h5>Your First Step Go-Ahead</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                            <div class="my-custom-button2">
+                                <a href="#">Get Started</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item dark-overlay">
                     <img src="images/cover/cover-3.jpg" class="img-fluid d-block w-100" alt="...">
-                    <div class="my-carousel-caption d-md-block">
-                        <h5>Certified Training on Web Design & Development</h5>
-                        <p>Best applications are developing recently in the world using combinely Laravel and Vue JS
-                            framework.</p>
-                        <div class="my-custom-button2">
-                            <a href="#">Get Started</a>
+                    <div class="view carousel-caption d-flex h-100 align-items-center justify-content-center"
+                        style="z-index:1">
+                        <div>
+                            <h5>Certified Training on Web Design & Development</h5>
+                            <p>Best applications are developing recently in the world using combinely Laravel and Vue JS
+                                framework.</p>
+                            <div class="my-custom-button2">
+                                <a href="#">Get Started</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -142,7 +201,7 @@
     <main>
         <section class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 text-center My-custom-style">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center My-custom-style" id="courses">
                     <h1>Discover Our Popular <br> Courses</h1>
                     <p>It is a long established fact that a reader will be distracted by the <br> readable content of a
                         page
@@ -152,8 +211,8 @@
         </section>
 
         <section class="course-section container">
-            <div class="row d-flex g-5 mb-3">
-                <div class="col-lg-6 col-md-6 col-md-6 col-sm-12">
+            <div class="row mb-3">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div class="row mb-3">
                         <div class="col-md-4 col-sm-12">
                             <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
@@ -197,7 +256,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-md-6 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                     <div class="row mb-3">
                         <div class="col-lg-4 col-md-4 col-sm-12">
                             <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
@@ -256,12 +315,12 @@
         <!-- About institute section Starts -------------- -->
 
 
-        <section class="container custom-bg">
+        <section class="container custom-bg" id="AboutUs">
             <div class="row d-flex align-items-center custom-bg mb-5">
-                <div class="col-lg-6 col-md-6 col-sm-12 p-0">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0">
                     <img src="images/working.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 my-custom-countdown">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 my-custom-countdown">
 
                     <div>
                         <h1>Explore The elearning Institute</h1>
@@ -274,7 +333,7 @@
                             Internet tend to repeat predefined.</p>
                     </div>
 
-                    <div class="row">
+                    <div class="row py-5">
                         <div class="col-md-4 col-sm-12">
                             <h2>3.2K+</h2>
                             <span> Online Course</span>
@@ -298,7 +357,7 @@
 
         <!-- Register section start --------------------- -->
 
-        <section class="container custom-bg2 mb-5">
+        <section class="container custom-bg2 mb-5" id="Subscription">
             <div class="row p-5 p-sm-5 align-items-center">
                 <div class="col-md-12 col-sm-12 col-lg-6">
                     <h1>Ready to join?</h1>
@@ -306,8 +365,57 @@
                         page when looking at its layout.</p>
                 </div>
                 <div class="col-md-12 col-sm-12 col-lg-6 justify-content-end">
-                    <div class="my-custom-button3">
+
+                    <div class="my-custom-button3" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         <a href="#">Subscription</a>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+
+                                    <!-- form html ---------------------------------- -->
+
+
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with
+                                                anyone else.</div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        </div>
+                                    </form>
+
+
+                                    <!-- form html ---------------------------------- -->
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -317,7 +425,7 @@
         <!-- students profile section start -->
 
 
-        <section class="container">
+        <section class="container" id="success">
             <div class="row mb-3 students-profile">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <h1>Meet Our Successfull <br>Students</h1>
@@ -365,13 +473,16 @@
                     </div>
                 </div>
             </div>
+            <div class="my-custom-button2 text-center mt-3">
+                <a href="#">View All</a>
+            </div>
         </section>
 
 
 
         <!-- Frequently ask question section -->
 
-        <section class="container">
+        <section class="container" id="FAQ">
             <div class="row justify-content-center">
                 <div class="text-center mb-5 mt-5 students-profile">
                     <h1>Frequently Asked Questions</h1>
@@ -484,7 +595,7 @@
 
         <!-- our contributor section -->
 
-        <section class="container">
+        <section class="container hidden-property">
             <div>
                 <h1 class="text-center mb-4 mt-5">Trusted by over 800+ companies</h1>
             </div>
@@ -510,37 +621,30 @@
             </div>
         </section>
 
-        <footer class="footer-bg p-5">
-            <div class="row text-center">
-                <div class="col-lg-12 col-md-12 col-sm-12 footer-text">
-                    <div>
-                        <h2>Creative Learning</h2>
-                        <p>Office 41, Zawaya Buildin, Ghala Muscat, </p>
-                        <p>Sultanate of Oman</p>
-                        <p>Privacy Ploicy | Terms of use</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-lg-12 col-md-12 col-sm-12 footer-social">
-
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                </div>
-            </div>
-
-        </footer>
-
-
-
-
-
-
-
-
     </main>
+
+    <footer class="footer-bg p-5">
+        <div class="row text-center">
+            <div class="col-lg-12 col-md-12 col-sm-12 footer-text">
+                <div>
+                    <h2>Creative Learning</h2>
+                    <p>Office 41, Zawaya Buildin, Ghala Muscat, </p>
+                    <p>Sultanate of Oman</p>
+                    <p>Privacy Ploicy | Terms of use</p>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-12 col-md-12 col-sm-12 footer-social">
+
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+    </footer>
 
 
 
