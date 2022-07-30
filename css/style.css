@@ -240,7 +240,7 @@ p {
 
 }
 
-@media screen and (min-width:541px) and (max-width:767px) {
+@media screen and (min-width:541px) and (max-width:991px) {
     .hidden-property {
         display: none;
     }
