@@ -11,16 +11,9 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
-
-
-
-
-
-
 /* ================================ */
 
-
-
+/* Navbar style My-custom-style########################### */
 
 .my-custom-logo a {
     text-decoration: none;
@@ -53,7 +46,8 @@ p {
 }
 
 
-/* slider custom height */
+/* slider custom height ####################################*/
+
 .my-custom-button2 a {
     text-decoration: none;
     display: inline-block;
@@ -70,19 +64,6 @@ p {
     color: black;
     font-weight: 500;
 }
-
-/* .my-carousel-caption {
-    position: absolute;
-    right: 15%;
-    bottom: auto;
-    top: 40%;
-    left: 15%;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-    color: #fff;
-    text-align: center;
-    z-index: 1;
-} */
 
 .dark-overlay::after {
     content: '';
@@ -118,6 +99,7 @@ p {
 
 
 /* institute overview css style start ------------------------------------- */
+
 .custom-bg {
     background-color: #F4FAFD;
     border-radius: 10px;
@@ -145,8 +127,6 @@ p {
     font-size: 14px;
     font-weight: 500;
 }
-
-
 
 /* Register section start ---------------------  */
 
@@ -189,7 +169,7 @@ p {
 }
 
 
-/* students-profile :start */
+/* students-profile :start #######################*/
 
 
 .students-profile h1 {
@@ -229,7 +209,7 @@ p {
 
 
 
-/* Some media queries  */
+/* Some media queries  ###########################*/
 
 @media screen and (max-width: 540px) {
     .view {
