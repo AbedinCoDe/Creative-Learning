@@ -45,6 +45,11 @@ p {
     color: white;
 }
 
+.view p {
+    font-size: 13px;
+    color: #dadadae5;
+}
+
 
 /* slider custom height ####################################*/
 
